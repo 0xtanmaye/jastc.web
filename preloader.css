@@ -1,0 +1,44 @@
+html{
+  height: 100%; 
+}
+body{
+  /* background-color: yellow; */
+  background-image: linear-gradient(yellow, orange);
+  background-repeat: no-repeat;
+}
+::selection{
+  background-color: orange;
+  color: black;
+}
+div {
+  /* padding-top: 50%; */
+  margin-top:45vh;
+  text-align:center; 
+  display:table;
+  width:100%;
+}
+h1{
+  margin:0 
+  vertical-align:middle;
+  top:50%;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  color: white;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 1.5s forwards;
+}
+/* .container {
+  display: inline-block;
+} */
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
